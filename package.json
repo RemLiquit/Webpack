@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "built": "webpack --entry ./index.js --output ./bundle.js --mode development",
     "built:local": "webpack --mode production",
-    "built:external": "webpack --config ./external/webpack.config.js --mode development"
+    "built:external": "webpack --config ./external/webpack.config.js --mode development",
+    "built:multi": "webpack --config ./multi-entry-points/webpack.config.js"
   },
   "repository": {
     "type": "git",
