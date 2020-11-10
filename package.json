@@ -12,7 +12,8 @@
     "built:css": "webpack --config ./css-style-loader/webpack.config.js",
     "built:plugins": "webpack --config ./plugins/webpack.config.js",
     "built:dev": "webpack-dev-server --config ./webpack-dev-server/webpack.config.js",
-    "built:babel": "webpack-dev-server --config ./babel/webpack.config.js"
+    "built:babel": "webpack-dev-server --config ./babel/webpack.config.js",
+    "built:react": "webpack-dev-server --config ./react/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -28,12 +29,15 @@
   },
   "homepage": "https://github.com/RemLiquit/Webpack#readme",
   "dependencies": {
-    "@babel/runtime": "7.12.1"
+    "@babel/runtime": "7.12.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
   },
   "devDependencies": {
     "@babel/core": "7.12.3",
     "@babel/plugin-transform-runtime": "7.12.1",
     "@babel/preset-env": "7.12.1",
+    "@babel/preset-react": "7.12.1",
     "babel-loader": "8.1.0",
     "css-loader": "5.0.0",
     "html-webpack-plugin": "4.5.0",
